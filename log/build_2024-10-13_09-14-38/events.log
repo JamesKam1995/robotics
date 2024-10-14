@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.001388] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.096147] (-) TimerEvent: {}
+[0.197322] (-) TimerEvent: {}
+[0.298427] (-) TimerEvent: {}
+[0.399484] (-) TimerEvent: {}
+[0.500563] (-) TimerEvent: {}
+[0.601796] (-) TimerEvent: {}
+[0.702884] (-) TimerEvent: {}
+[0.805249] (-) TimerEvent: {}
+[0.907169] (-) TimerEvent: {}
+[1.008078] (-) TimerEvent: {}
+[1.109110] (-) TimerEvent: {}
+[1.209878] (-) TimerEvent: {}
+[1.310863] (-) TimerEvent: {}
+[1.414708] (-) TimerEvent: {}
+[1.515676] (-) TimerEvent: {}
+[1.617125] (-) TimerEvent: {}
+[1.719004] (-) TimerEvent: {}
+[1.819692] (-) TimerEvent: {}
+[1.920490] (-) TimerEvent: {}
+[2.024014] (-) TimerEvent: {}
+[2.124581] (-) TimerEvent: {}
+[2.225423] (-) TimerEvent: {}
+[2.326322] (-) TimerEvent: {}
+[2.427512] (-) TimerEvent: {}
+[2.528910] (-) TimerEvent: {}
+[2.630332] (-) TimerEvent: {}
+[2.731503] (-) TimerEvent: {}
+[2.832672] (-) TimerEvent: {}
+[2.933588] (-) TimerEvent: {}
+[3.036359] (-) TimerEvent: {}
+[3.137042] (-) TimerEvent: {}
+[3.237676] (-) TimerEvent: {}
+[3.338694] (-) TimerEvent: {}
+[3.398180] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/kamsa/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kam', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/kam', 'OLDPWD': '/mnt/c/Users/kamsa', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/kamsa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'kam', 'NAME': 'LAPTOP-KG7RTC5P', 'WSL_INTEROP': '/run/WSL/673_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Java/jdk1.8.0_331/bin:/mnt/c/hadoop/bin:/mnt/c/hadoop/sbin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/clang64/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files (x86)/Gow/bin:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/Calibre2/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files (x86)/Incredibuild:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/kamsa/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/kamsa/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/kamsa/AppData/Local/Programs/Python/Python310:/mnt/c/Users/kamsa/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/clang64/bin:/mnt/c/Users/kamsa/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kamsa/AppData/Roaming/npm:/mnt/c/Users/kamsa/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/msys64/ucrt64/bin:/mnt/c/MinGW/bin:/mnt/c/Users/kamsa/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[3.438822] (-) TimerEvent: {}
+[3.539612] (-) TimerEvent: {}
+[3.640441] (-) TimerEvent: {}
+[3.741071] (-) TimerEvent: {}
+[3.841951] (-) TimerEvent: {}
+[3.942796] (-) TimerEvent: {}
+[4.043677] (-) TimerEvent: {}
+[4.144769] (-) TimerEvent: {}
+[4.245887] (-) TimerEvent: {}
+[4.347014] (-) TimerEvent: {}
+[4.447651] (-) TimerEvent: {}
+[4.548547] (-) TimerEvent: {}
+[4.649385] (-) TimerEvent: {}
+[4.750184] (-) TimerEvent: {}
+[4.851398] (-) TimerEvent: {}
+[4.953159] (-) TimerEvent: {}
+[5.054756] (-) TimerEvent: {}
+[5.155493] (-) TimerEvent: {}
+[5.256515] (-) TimerEvent: {}
+[5.261414] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.273173] (my_py_pkg) StdoutLine: {'line': b'creating ../../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[5.279233] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[5.301305] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[5.314937] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[5.325497] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[5.332300] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[5.343608] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.356626] (-) TimerEvent: {}
+[5.408224] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.456808] (-) TimerEvent: {}
+[5.557781] (-) TimerEvent: {}
+[5.587175] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.597301] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[5.599123] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.608278] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build\n'}
+[5.612836] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build/lib\n'}
+[5.617378] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[5.644897] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[5.657921] (-) TimerEvent: {}
+[5.685218] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[5.686784] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.732093] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[5.758086] (-) TimerEvent: {}
+[5.770250] (my_py_pkg) StdoutLine: {'line': b'copying /mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg\n'}
+[5.844127] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[5.858230] (-) TimerEvent: {}
+[5.924310] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.943038] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/share/ament_index\n'}
+[5.952352] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/share/ament_index/resource_index\n'}
+[5.956946] (my_py_pkg) StdoutLine: {'line': b'creating /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[5.958427] (-) TimerEvent: {}
+[5.987893] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[6.039345] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[6.058610] (-) TimerEvent: {}
+[6.070806] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.110093] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /mnt/c/Users/kamsa/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[6.158833] (-) TimerEvent: {}
+[6.259576] (-) TimerEvent: {}
+[6.360655] (-) TimerEvent: {}
+[6.461945] (-) TimerEvent: {}
+[6.563010] (-) TimerEvent: {}
+[6.664257] (-) TimerEvent: {}
+[6.765497] (-) TimerEvent: {}
+[6.866926] (-) TimerEvent: {}
+[6.899304] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.967181] (-) TimerEvent: {}
+[7.068839] (-) TimerEvent: {}
+[7.171604] (-) TimerEvent: {}
+[7.184657] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/kamsa/ros2_ws/build/my_py_pkg/install.log'\n"}
+[7.236873] (my_py_pkg) CommandEnded: {'returncode': 0}
+[7.272093] (-) TimerEvent: {}
+[7.373152] (-) TimerEvent: {}
+[7.474201] (-) TimerEvent: {}
+[7.575007] (-) TimerEvent: {}
+[7.675761] (-) TimerEvent: {}
+[7.776737] (-) TimerEvent: {}
+[7.840632] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[7.863417] (-) EventReactorShutdown: {}

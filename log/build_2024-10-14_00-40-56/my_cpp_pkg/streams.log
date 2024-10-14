@@ -1,0 +1,38 @@
+[0.146s] Invoking command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[0.495s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.831s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.545s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.553s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.575s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.672s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.784s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.805s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[29.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.915s] -- Configuring done
+[31.891s] -- Generating done
+[32.019s] -- Build files have been written to: /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg
+[32.205s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[38.087s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[39.059s] [100%] Built target cpp_node
+[39.107s] Invoked command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[39.199s] Invoking command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg
+[39.214s] -- Install configuration: ""
+[39.258s] -- Installing: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[39.523s] -- Set runtime path of "/mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[39.625s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[39.694s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[39.739s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[39.825s] -- Installing: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[40.044s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[40.128s] -- Installing: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[40.299s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[40.348s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[40.405s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[40.468s] -- Installing: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[40.660s] -- Installing: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[40.869s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[40.953s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[41.015s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[41.095s] -- Up-to-date: /mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[41.133s] Invoked command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg
