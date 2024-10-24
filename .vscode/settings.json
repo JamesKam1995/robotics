@@ -3,5 +3,6 @@
         "*.rmd": "markdown",
         "string": "cpp",
         "functional": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/kamsa/ros2_ws/src/my_cpp_pkg"
 }

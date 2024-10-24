@@ -2,3 +2,15 @@ sshkey
 sshkey.pub
 log/
 build/
+install/
+src/build
+src/install
+src/log
+src/src/build
+src/my_cpp_pkg/src/install
+src/my_cpp_pkg/src/install
+src/my_cpp_pkg/src/log
+CMakeLists.txt
+.cmake
+.env
+package.xml
