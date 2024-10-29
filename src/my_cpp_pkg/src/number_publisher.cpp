@@ -19,7 +19,7 @@ private:
         msg.data = 1;
         publisher_->publish(msg);
     }
-    rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
+    rclcpp::Publisher<example_interfaces::msg::Int64>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
 };
 

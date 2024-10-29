@@ -1,30 +1,34 @@
 #include "rclcpp/rclcpp.hpp"
 #include "example_interfaces/msg/int64.hpp"
 
-class numberCounterNode : public rclcpp::Node // MODIFY NAME
+class NumberCounterNode : public rclcpp::Node
 {
 public:
-    numberCounterNode() : Node("number_counter") // MODIFY NAME
+    NumberCounterNode() : Node("number_counter"), counter_(0)
     {
-        subscriber_ this->create_subcription<example_interfaces::msg::Int64>(
-            "number", 10,
-            std::bind(&numberCounterNode::callbackNumberCounter, this, std::placeholders::_1));
-        RCLCPP_INFO(this->get_logger(), "Smartphone has been started.");
+        counter_publisher_ = this->create_publisher<example_interfaces::msg::Int64>("number_count", 10);
+        number_subscriber_ = this->create_subscription<example_interfaces::msg::Int64>(
+            "number", 10, std::bind(&NumberCounterNode::callbackNumber, this, std::placeholders::_1));
     }
-
 
 private:
-    void callbackNumberCounter(const example_interfaces::msg::Int64::SharedPtr msg)
+    void callbackNumber(const example_interfaces::msg::Int64::SharedPtr msg)
     {
-        RCLCPP_INFO(this->get_logger(), "%i", msg->data.c_int());
+        counter_ += msg->data;
+        auto newMsg = example_interfaces::msg::Int64();
+        newMsg.data = counter_;
+        counter_publisher_->publish(newMsg);
     }
-    rclcpp::Subscription<example_interfaces::msg::String>::SharedPtr subscriber_;
+
+    int counter_;
+    rclcpp::Publisher<example_interfaces::msg::Int64>::SharedPtr counter_publisher_;
+    rclcpp::Subscription<example_interfaces::msg::Int64>::SharedPtr number_subscriber_;
 };
 
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<numberCounterNode>(); // MODIFY NAME
+    auto node = std::make_shared<NumberCounterNode>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;
