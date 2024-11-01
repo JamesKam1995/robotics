@@ -8,7 +8,7 @@ src/install
 src/log
 src/src/build
 src/my_cpp_pkg/src/install
-src/my_cpp_pkg/src/install
+src/my_cpp_pkg/src/build
 src/my_cpp_pkg/src/log
 .cmake
 .env
