@@ -1,6 +1,0 @@
-Invoking command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kamsa/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg
-Invoked command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/kamsa/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/kamsa/ros2_ws/install/my_cpp_pkg
-Invoking command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg -- -j8 -l8
-Invoked command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg -- -j8 -l8
-Invoking command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg
-Invoked command in '/mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/kamsa/ros2_ws/build/my_cpp_pkg
